@@ -1,0 +1,80 @@
+
+.profile-pic {
+    width: 300px; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+    border-radius: 10%; /* Makes the image circular */
+    margin-right: 15px; /* Optional spacing between image and text */
+    margin-top: 50px;
+}
+.profile-content {
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.booklist-content {
+    text-align: center;
+}
+
+.book-title {
+    font-weight: bold;
+}
+
+.author-name {
+font-weight: normal;
+display: block; /* allows margin-bottom to take effect */
+margin-bottom: 1.5em; /* adds space below the author name */
+}
+
+ul {
+list-style-type: none; /* removes the bullet points from the list */
+padding-left: 0; /* removes padding from the list */
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    display: block; /* allows margin-bottom to take effect */
+    margin-bottom: 1.5em; /* adds space below the author name */
+}
+
+.star {
+    cursor: pointer;
+    color: gray;
+}
+
+.star.highlighted {
+    color: gold;
+}
+
+.rating {
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+
+.resume-section {
+    margin-right: 40px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.contact-section {
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: center;
+}
+.fab {
+    color: #000000;
+    font-size: 24px;
+    margin-right: 10px;
+}
+.bi {
+    font-size: 48px; /* Icon size */
+    color: #333; /* Icon color */
+ }
+
